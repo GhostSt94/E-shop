@@ -1,0 +1,125 @@
+body {
+    background: #eee
+}
+a{text-decoration: none;}
+.wrapper {
+    margin-top: 30px
+}
+
+.card {
+    border: 1px solid #eee;
+    cursor: pointer
+}
+
+.weight {
+    margin-top: -65px;
+    transition: all 0.5s
+}
+
+.weight small {
+    color: #e2dede
+}
+.row1{
+    min-height: 50px;
+}
+.row2{min-height: 110px;}
+.row3{min-height: 64px;}
+
+.cartBtn,.wishlistBtn{
+    position: absolute;
+    right: 10px;
+    padding: 6px;
+}
+.cartBtn{
+    top: 10px;
+}
+.wishlistBtn{
+    top: 55px;
+}
+.img-size{
+    height:200px;
+    overflow: hidden;
+}
+.img-size img{
+    height: auto;
+    width: 100%;
+}
+.whatsapp-icon{z-index: 5;}
+
+@media screen and (max-width: 768px){
+    .img-size{
+        height:300px;
+    }
+}
+
+@keyframes item {
+    0% {
+        opacity: 1;
+        top: 30%;
+        left: 30%
+    }
+
+    25% {
+        opacity: 1;
+        left: 26%;
+        top: 0%
+    }
+
+    50% {
+        opacity: 1;
+        left: 23%;
+        top: -22%
+    }
+
+    75% {
+        opacity: 1;
+        left: 19%;
+        top: -18%
+    }
+
+    100% {
+        opacity: 1;
+        left: 14%;
+        top: 28%
+    }
+}
+
+
+/* rating */
+.rating-css div {
+    color: #ffe400;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+  .rating-css input {
+    display: none;
+  }
+  .rating-css input + label {
+    font-size: 60px;
+    text-shadow: 1px 1px 0 #8f8420;
+    cursor: pointer;
+  }
+  .rating-css input:checked + label ~ label {
+    color: #b4afaf;
+  }
+  .rating-css label:active {
+    transform: scale(0.8);
+    transition: 0.3s ease;
+  }
+
+/* End of Star Rating */
+
+.checked{
+    color: rgb(255, 230, 0);
+}
+
+.search-bar{
+    width: 40%;
+    margin-left: 10%;
+}
+
+

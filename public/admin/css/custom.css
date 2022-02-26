@@ -1,0 +1,15 @@
+.add-form input,.add-form textarea{
+    background: white;
+}
+.add-form input[type="file"]{
+    background-image: linear-gradient(90deg,rgb(204, 199, 199) 0%,white 15%);
+}
+.acceuil h6,.acceuil h4{
+    color: blanchedalmond;
+}
+
+@media screen and (max-width: 768px){
+    .card_table{
+        overflow: auto;
+    }
+}
